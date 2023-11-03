@@ -2,10 +2,29 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var path = require('path');
+const fs = require('fs');
+var cors = require('cors');
+
+app.use(cors({ origin: '*' }));
 
 app.get('/', function(req, res) {
+   console.log("hello");
    res.sendfile(path.resolve('index.html'));
 });
+
+app.get('/api/getFilenames', function(req, res){
+   const directoryPath = '../../kbc/src/assets/datasource'; 
+
+   
+   fs.readdir(directoryPath, (err, files) => {
+     if (err) {
+       res.status(500).json({ error: 'Error reading files' });
+     } else {
+       res.json(files);
+     }
+   });
+   
+ });
 
 // handle incoming connections from clients
 io.sockets.on('connection', function(socket) {

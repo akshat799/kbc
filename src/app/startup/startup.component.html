@@ -14,4 +14,8 @@
     <div class="text-center my-1">
         <a routerLink="/about" class="btn btn-outline-info btn-lg btn-block text-white">About</a>
     </div>
+    <select [(ngModel)]="selectedFile" (ngModelChange)="updateConstantValue(selectedFile)">
+        <option value="">Select a file</option>
+        <option *ngFor="let file of files" [value]="file">{{ file }}</option>
+    </select>      
 </div>

@@ -29,7 +29,7 @@ export class GameComponent implements OnInit {
   public currentWinnings: string;
   public guaranteedWinnings: string;
   public username: string = ConstantsService.emptyString;
-  public isNextQuestionAllowed = false;
+  public isNextQuestionAllowed = true;
   public hasOptionBeenLocked = false;
   public isGameReset = false;
   public isCollapsed = true;
@@ -110,6 +110,17 @@ export class GameComponent implements OnInit {
       this.presentQuestion();
     }
   }
+  
+  clickableNextQuestion(arrayIndex: number){
+    if (this.utilitiesService.hasGameStarted && this.hasOptionBeenLocked && this.isNextQuestionAllowed) {
+      this.arrayIndex = arrayIndex;
+      this.resetOptions();
+      this.utilitiesService.setLifeLines(false);
+      this.audioManagerService.stopIfAudioIsPlaying();
+      this.audioManagerService.playBackgroundSound(ConstantsService.showNextQuestionAudioFilePath);
+      this.presentQuestion();
+    }
+  }
 
   quitTheGame() {
     if (this.utilitiesService.hasGameStarted) {
@@ -159,12 +170,13 @@ export class GameComponent implements OnInit {
         this.isNextQuestionAllowed = true;
       }
       else {
-        this.isNextQuestionAllowed = false;
+        this.isNextQuestionAllowed = true;
         this.utilitiesService.isFlippedQuestionPresented = false;
       }
 
       this.utilitiesService.setOptions(false);
-      this.audioManagerService.playBackgroundSound(ConstantsService.correctAnswerAudioFilePath);
+      // this.audioManagerService.playBackgroundSound(ConstantsService.correctAnswerAudioFilePath);
+
     }
     else {
       if (this.utilitiesService.isFirstGuessRight()) {
@@ -180,7 +192,7 @@ export class GameComponent implements OnInit {
       else {
         this.utilitiesService.isFlippedQuestionPresented = false;
       }
-      this.isNextQuestionAllowed = false;
+      this.isNextQuestionAllowed = true;
       this.getsWrongOption(lockedAnswer);
       this.audioManagerService.playBackgroundSound(ConstantsService.wrongAnswerAudioFilePath);
     }
@@ -305,7 +317,7 @@ export class GameComponent implements OnInit {
 
   private lifeLineFiftyFifty() {
     if (!this.utilitiesService.lifelineFiftyFiftyLocked) {
-      this.audioManagerService.playBackgroundSound(ConstantsService.lifeLineAudioFilePath);
+      // this.audioManagerService.playBackgroundSound(ConstantsService.lifeLineAudioFilePath);
       this.utilitiesService.lifelineFiftyFiftyLocked = true;
       this.utilitiesService.imageSourceFiftyFifty = ConstantsService.fiftyFiftyDoneImageSourcePath;
       switch (this.questions[ConstantsService.Questions][this.arrayIndex - 1].rightAnswer) {
@@ -450,7 +462,7 @@ export class GameComponent implements OnInit {
     this.arrayIndex++;
     this.dataService.changeMessage(this.questions[ConstantsService.Questions][this.arrayIndex - 1].audiencePoll);
     this.startTheTimer();
-    this.playQuestionsBackgroundSound();
+    // this.playQuestionsBackgroundSound();
   }
 
   private presentFlippedQuestion() {

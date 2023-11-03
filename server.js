@@ -8,6 +8,8 @@ var io = require('socket.io')(server, options);
 
 app.use(express.static(__dirname + '/dist/game-show'));
 
+
+
 var roomno = 1;
 
 io.on('connection', socket => {
