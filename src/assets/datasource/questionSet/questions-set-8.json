@@ -1,0 +1,169 @@
+{
+    "Questions": [
+        {
+            "question": "Which gas is most abundant in Earth's atmosphere?",
+            "optionOne": "Oxygen",
+            "optionTwo": "Carbon Dioxide",
+            "optionThree": "Nitrogen",
+            "optionFour": "Hydrogen",
+            "rightAnswer": "optionThree",
+            "audiencePoll": "15, 20, 60, 5, 0",
+            "amount": "5,000",
+            "information": "Nitrogen is the most abundant gas in Earth's atmosphere, making up about 78% of the air we breathe."
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "optionOne": "Earth",
+            "optionTwo": "Mars",
+            "optionThree": "Venus",
+            "optionFour": "Jupiter",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "5, 10, 10, 75, 0",
+            "amount": "10,000",
+            "information": "Jupiter is the largest planet in our solar system, with a diameter of over 139,000 kilometers."
+        },
+        {
+            "question": "What is the chemical symbol for iron?",
+            "optionOne": "Au",
+            "optionTwo": "Ag",
+            "optionThree": "Fe",
+            "optionFour": "Hg",
+            "rightAnswer": "optionThree",
+            "audiencePoll": "10, 60, 10, 20, 0",
+            "amount": "20,000",
+            "information": "The chemical symbol for iron is 'Fe,' derived from the Latin word 'ferrum.'"
+        },
+        {
+            "question": "Who is known as the 'Father of Modern Astronomy'?",
+            "optionOne": "Isaac Newton",
+            "optionTwo": "Galileo Galilei",
+            "optionThree": "Stephen Hawking",
+            "optionFour": "Albert Einstein",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "5, 80, 10, 5, 0",
+            "amount": "40,000",
+            "information": "Galileo Galilei is often referred to as the 'Father of Modern Astronomy' for his astronomical discoveries."
+        },
+        {
+            "question": "What gas is responsible for the greenhouse effect on Earth?",
+            "optionOne": "Oxygen",
+            "optionTwo": "Carbon Dioxide",
+            "optionThree": "Methane",
+            "optionFour": "Nitrogen",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "20, 10, 60, 10, 0",
+            "amount": "80,000",
+            "information": "Carbon dioxide (CO2) is a greenhouse gas responsible for trapping heat and causing the greenhouse effect."
+        },
+        {
+            "question": "Who formulated the laws of motion and universal gravitation?",
+            "optionOne": "Isaac Newton",
+            "optionTwo": "Galileo Galilei",
+            "optionThree": "Stephen Hawking",
+            "optionFour": "Albert Einstein",
+            "rightAnswer": "optionOne",
+            "audiencePoll": "15, 5, 75, 5, 0",
+            "amount": "1,60,000",
+            "information": "Isaac Newton formulated the laws of motion and universal gravitation."
+        },
+        {
+            "question": "What is the national flower of France?",
+            "optionOne": "Lotus",
+            "optionTwo": "Tulip",
+            "optionThree": "Rose",
+            "optionFour": "Lily",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "15, 5, 10, 70, 0",
+            "amount": "3,20,000",
+            "information": "The national flower of France is the Lily or 'Lys.'"
+        },
+        {
+            "question": "In which year did the first moon landing occur?",
+            "optionOne": "1969",
+            "optionTwo": "1979",
+            "optionThree": "1989",
+            "optionFour": "1999",
+            "rightAnswer": "optionOne",
+            "audiencePoll": "5, 10, 10, 75, 0",
+            "amount": "6,40,000",
+            "information": "The first moon landing occurred in 1969 during NASA's Apollo 11 mission."
+        },
+        {
+            "question": "What is the smallest planet in our solar system?",
+            "optionOne": "Earth",
+            "optionTwo": "Mars",
+            "optionThree": "Venus",
+            "optionFour": "Mercury",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "5, 15, 10, 70, 0",
+            "amount": "12,50,000",
+            "information": "Mercury is the smallest planet in our solar system."
+        },
+        {
+            "question": "What is the chemical symbol for sodium?",
+            "optionOne": "Na",
+            "optionTwo": "Ag",
+            "optionThree": "Fe",
+            "optionFour": "Hg",
+            "rightAnswer": "optionOne",
+            "audiencePoll": "20, 5, 10, 65, 0",
+            "amount": "25,000",
+            "information": "The chemical symbol for sodium is 'Na,' derived from the Latin word 'natrium.'"
+        },
+        {
+            "question": "What is the national flower of India?",
+            "optionOne": "Lotus",
+            "optionTwo": "Tulip",
+            "optionThree": "Rose",
+            "optionFour": "Jasmine",
+            "rightAnswer": "optionOne",
+            "audiencePoll": "60, 20, 5, 15, 0",
+            "amount": "50,000",
+            "information": "The national flower of India is the Lotus."
+        },
+        {
+            "question": "Which gas is known as the 'laughing gas'?",
+            "optionOne": "Oxygen",
+            "optionTwo": "Carbon Dioxide",
+            "optionThree": "Methane",
+            "optionFour": "Nitrous Oxide",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "10, 20, 10, 60, 0",
+            "amount": "1,20,000",
+            "information": "Nitrous oxide (N2O) is often referred to as the 'laughing gas' due to its euphoric effects when inhaled."
+        },
+        {
+            "question": "Which planet is known as the 'Red Planet'?",
+            "optionOne": "Earth",
+            "optionTwo": "Mars",
+            "optionThree": "Venus",
+            "optionFour": "Mercury",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "5, 70, 15, 10, 0",
+            "amount": "2,40,000",
+            "information": "Mars is known as the 'Red Planet' due to its reddish appearance."
+        },
+        {
+            "question": "Who wrote the novel '1984'?",
+            "optionOne": "George Orwell",
+            "optionTwo": "J.K. Rowling",
+            "optionThree": "Jane Austen",
+            "optionFour": "F. Scott Fitzgerald",
+            "rightAnswer": "optionOne",
+            "audiencePoll": "80, 10, 5, 5, 0",
+            "amount": "2,40,000",
+            "information": "The novel '1984' was written by George Orwell and published in 1949."
+        },
+        {
+            "question": "Which gas do humans primarily exhale when they breathe out?",
+            "optionOne": "Oxygen",
+            "optionTwo": "Carbon Dioxide",
+            "optionThree": "Nitrogen",
+            "optionFour": "Hydrogen",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "5, 60, 15, 20, 0",
+            "amount": "5,00,000",
+            "information": "Humans primarily exhale carbon dioxide when they breathe out."
+        }
+    ]
+}

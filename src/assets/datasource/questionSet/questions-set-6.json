@@ -1,0 +1,169 @@
+{
+    "Questions": [
+        {
+            "question": "What is the capital of France?",
+            "optionOne": "Berlin",
+            "optionTwo": "London",
+            "optionThree": "Madrid",
+            "optionFour": "Paris",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "20, 15, 10, 55, 0",
+            "amount": "5,000",
+            "information": "Paris is the capital of France."
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "optionOne": "Earth",
+            "optionTwo": "Mars",
+            "optionThree": "Venus",
+            "optionFour": "Jupiter",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "5, 70, 10, 15, 0",
+            "amount": "10,000",
+            "information": "Mars is often referred to as the Red Planet due to its reddish appearance."
+        },
+        {
+            "question": "What is the largest mammal in the world?",
+            "optionOne": "African Elephant",
+            "optionTwo": "Blue Whale",
+            "optionThree": "Giraffe",
+            "optionFour": "Kangaroo",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "15, 20, 5, 60, 0",
+            "amount": "20,000",
+            "information": "The Blue Whale is the largest mammal on Earth."
+        },
+        {
+            "question": "Who wrote the play 'Romeo and Juliet'?",
+            "optionOne": "Charles Dickens",
+            "optionTwo": "William Shakespeare",
+            "optionThree": "Jane Austen",
+            "optionFour": "Mark Twain",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "10, 75, 5, 10, 0",
+            "amount": "40,000",
+            "information": "'Romeo and Juliet' is a tragedy play written by William Shakespeare."
+        },
+        {
+            "question": "Which gas do plants absorb from the atmosphere?",
+            "optionOne": "Carbon Dioxide",
+            "optionTwo": "Oxygen",
+            "optionThree": "Methane",
+            "optionFour": "Hydrogen",
+            "rightAnswer": "optionOne",
+            "audiencePoll": "70, 10, 5, 15, 0",
+            "amount": "80,000",
+            "information": "Plants absorb carbon dioxide from the atmosphere during photosynthesis."
+        },
+        {
+            "question": "What is the currency of Japan?",
+            "optionOne": "Euro",
+            "optionTwo": "Dollar",
+            "optionThree": "Yen",
+            "optionFour": "Rupee",
+            "rightAnswer": "optionThree",
+            "audiencePoll": "5, 15, 80, 0, 0",
+            "amount": "1,60,000",
+            "information": "The currency of Japan is the Japanese Yen."
+        },
+        {
+            "question": "Who painted the 'Mona Lisa'?",
+            "optionOne": "Pablo Picasso",
+            "optionTwo": "Vincent van Gogh",
+            "optionThree": "Leonardo da Vinci",
+            "optionFour": "Andy Warhol",
+            "rightAnswer": "optionThree",
+            "audiencePoll": "10, 15, 70, 5, 0",
+            "amount": "3,20,000",
+            "information": "The 'Mona Lisa' was painted by Leonardo da Vinci."
+        },
+        {
+            "question": "Which gas is most abundant in the Earth's atmosphere?",
+            "optionOne": "Oxygen",
+            "optionTwo": "Carbon Dioxide",
+            "optionThree": "Nitrogen",
+            "optionFour": "Helium",
+            "rightAnswer": "optionThree",
+            "audiencePoll": "8, 5, 85, 2, 0",
+            "amount": "6,40,000",
+            "information": "Nitrogen is the most abundant gas in Earth's atmosphere."
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "optionOne": "Mars",
+            "optionTwo": "Venus",
+            "optionThree": "Earth",
+            "optionFour": "Jupiter",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "5, 10, 15, 70, 0",
+            "amount": "12,50,000",
+            "information": "Jupiter is the largest planet in our solar system."
+        },
+        {
+            "question": "Which scientist is known for the theory of relativity?",
+            "optionOne": "Isaac Newton",
+            "optionTwo": "Galileo Galilei",
+            "optionThree": "Stephen Hawking",
+            "optionFour": "Albert Einstein",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "10, 5, 5, 80, 0",
+            "amount": "25 Lakh",
+            "information": "Albert Einstein is known for the theory of relativity."
+        },
+        {
+            "question": "What is the largest desert in the world?",
+            "optionOne": "Gobi Desert",
+            "optionTwo": "Sahara Desert",
+            "optionThree": "Atacama Desert",
+            "optionFour": "Antarctica",
+            "rightAnswer": "optionTwo",
+            "audiencePoll": "20, 60, 5, 15, 0",
+            "amount": "50,000",
+            "information": "The Sahara Desert is the largest hot desert in the world."
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "optionOne": "China",
+            "optionTwo": "India",
+            "optionThree": "Japan",
+            "optionFour": "South Korea",
+            "rightAnswer": "optionThree",
+            "audiencePoll": "5, 15, 80, 0, 0",
+            "amount": "1,20,000",
+            "information": "Japan is often called the 'Land of the Rising Sun.'"
+        },
+        {
+            "question": "What is the largest ocean in the world?",
+            "optionOne": "Atlantic Ocean",
+            "optionTwo": "Indian Ocean",
+            "optionThree": "Arctic Ocean",
+            "optionFour": "Pacific Ocean",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "10, 10, 5, 75, 0",
+            "amount": "2,40,000",
+            "information": "The Pacific Ocean is the largest and deepest ocean on Earth."
+        },
+        {
+            "question": "Which gas is known as the 'silent killer' due to its odorless and colorless nature?",
+            "optionOne": "Oxygen",
+            "optionTwo": "Carbon Dioxide",
+            "optionThree": "Methane",
+            "optionFour": "Carbon Monoxide",
+            "rightAnswer": "optionFour",
+            "audiencePoll": "10, 15, 5, 70, 0",
+            "amount": "5,00,000",
+            "information": "Carbon monoxide is often called the 'silent killer' because it is odorless and colorless."
+        },
+        {
+            "question": "Who is the author of 'To Kill a Mockingbird'?",
+            "optionOne": "George Orwell",
+            "optionTwo": "J.K. Rowling",
+            "optionThree": "Harper Lee",
+            "optionFour": "F. Scott Fitzgerald",
+            "rightAnswer": "optionThree",
+            "audiencePoll": "15, 10, 70, 5, 0",
+            "amount": "10,00,000",
+            "information": "'To Kill a Mockingbird' was written by Harper Lee."
+        }
+    ]
+}
