@@ -214,7 +214,20 @@ export class GameComponent implements OnInit {
   }
 
   private startTheTimer() {
-    const deadline = new Date(Date.parse(new Date().toString()) + 600 * 1000);
+    var deadline;
+    if(this.arrayIndex <= 5 ){
+      deadline = new Date(Date.parse(new Date().toString()) + 600 * 100);
+    }
+    else if (this.arrayIndex <= 9){
+      deadline = new Date(Date.parse(new Date().toString()) + 600 * 200);
+    }
+    else if(this.arrayIndex <= 12){
+      deadline = new Date(Date.parse(new Date().toString()) + 600 * 300);
+    }
+    else{
+      deadline = new Date(Date.parse(new Date().toString()) + 600 * 10000);
+    }
+    
     this.timerComponent.startTheClock(deadline);
   }
 
