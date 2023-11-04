@@ -12,10 +12,8 @@ app.get('/', function(req, res) {
    res.sendfile(path.resolve('index.html'));
 });
 
-app.get('/api/getFilenames', function(req, res){
-   const directoryPath = '../../kbc/src/assets/datasource'; 
-
-   
+app.get('/api/getFilenames/questions', function(req, res){
+   const directoryPath = '../../kbc/src/assets/datasource/questionSet'; 
    fs.readdir(directoryPath, (err, files) => {
      if (err) {
        res.status(500).json({ error: 'Error reading files' });
@@ -25,6 +23,18 @@ app.get('/api/getFilenames', function(req, res){
    });
    
  });
+
+ app.get('/api/getFilenames/flipquestions', function(req, res){
+  const directoryPath = '../../kbc-1/src/assets/datasource/flipQuestions'; 
+  fs.readdir(directoryPath, (err, files) => {
+    if (err) {
+      res.status(500).json({ error: 'Error reading files' });
+    } else {
+      res.json(files);
+    }
+  });
+  
+});
 
 // handle incoming connections from clients
 io.sockets.on('connection', function(socket) {

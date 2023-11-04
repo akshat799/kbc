@@ -21,6 +21,7 @@ export class QuizInformationDetailsService {
   }
 
   getsFlipQuestionsList(): Observable<any> {
+    console.log(this.quizFlipQuestionsSet);
     return this.httpClient.get<IQuizQuestionsSet>(this.quizFlipQuestionsSet).pipe(
       catchError(
       this.errorHandler

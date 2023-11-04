@@ -17,5 +17,10 @@
     <select [(ngModel)]="selectedFile" (ngModelChange)="updateConstantValue(selectedFile)">
         <option value="">Select a file</option>
         <option *ngFor="let file of files" [value]="file">{{ file }}</option>
-    </select>      
+    </select>
+    
+    <select [(ngModel)]="selectedFlipFile" (ngModelChange)="updateConstantFlipValue(selectedFlipFile)">
+        <option value="">Select a file</option>
+        <option *ngFor="let flipFile of flipFiles" [value]="flipFile">{{ flipFile }}</option>
+    </select> 
 </div>

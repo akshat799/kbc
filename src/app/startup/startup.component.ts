@@ -10,24 +10,35 @@ import { ConstantsService } from '../services/constants.service';
 export class StartupComponent implements OnInit {
 
   files: string[] = [];
+  flipFiles: string[] = [];
   selectedFile: string;
+  selectedFlipFile: string;
 
   constructor(private http: HttpClient) {}
   ngOnInit(): void {
-    this.http.get<string[]>('http://localhost:3000/api/getFilenames').subscribe((data: string[]) => {
+    this.http.get<string[]>('http://localhost:3000/api/getFilenames/questions').subscribe((data: string[]) => {
       this.files = data;
 
     });
-    this.selectedFile = localStorage.getItem('questionsSetJsonFilePath') || './assets/datasource/questions-set-1.json';
+    this.http.get<string[]>('http://localhost:3000/api/getFilenames/flipquestions').subscribe((data: string[]) => {
+      this.flipFiles = data;
+
+    });
+    this.selectedFile = localStorage.getItem('questionsSetJsonFilePath') || './assets/datasource/questionSet/questions-set-1.json';
+    this.selectedFlipFile = localStorage.getItem('flipQuestionsSetJsonFilePath') || './assets/datasource/flipQuestions/flip-questions-set-1.json';
   }
 
   updateConstantValue(selectedFile: string) {
     // Update the constant value based on the selected file
-    selectedFile = "./assets/datasource/" + selectedFile;
+    selectedFile = "./assets/datasource/questionSet/" + selectedFile;
     ConstantsService.questionsSetJsonFilePath = selectedFile; 
     localStorage.setItem('questionsSetJsonFilePath', selectedFile);
-    const updatedFilePath = ConstantsService.questionsSetJsonFilePath;
-    console.log(updatedFilePath);
+  }
+
+  updateConstantFlipValue(selectedFlipFile: string){
+    selectedFlipFile = "./assets/datasource/flipQuestions/" + selectedFlipFile;
+    ConstantsService.flipQuestionsSetJsonFilePath = selectedFlipFile; 
+    localStorage.setItem('flipQuestionsSetJsonFilePath', selectedFlipFile);
   }
 
 }

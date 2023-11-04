@@ -399,6 +399,7 @@ export class GameComponent implements OnInit {
 
   private lifeLineFlipTheQuestion() {
     if (!this.utilitiesService.lifelineFlipTheQuestionLocked) {
+      console.log("hello");
       this.audioManagerService.playBackgroundSound(ConstantsService.lifeLineAudioFilePath);
       this.utilitiesService.imageSourceFlipTheQuestion = ConstantsService.switchTheQuestionDoneImageSourcePath;
       this.utilitiesService.lifelineFlipTheQuestionLocked = true;
